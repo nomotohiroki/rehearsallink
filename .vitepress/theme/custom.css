@@ -88,6 +88,10 @@
   max-height: 380px !important;
 }
 
+.quick-start-item .phone-frame::before {
+  border-radius: 26px; /* Optimized for smaller frame size */
+}
+
 .quick-start-item p {
   font-size: 0.95rem;
   font-weight: 600;
