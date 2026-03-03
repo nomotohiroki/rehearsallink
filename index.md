@@ -64,8 +64,8 @@ features:
 
 **RehearsalLinkが、その悩みをすべて解決します。**
 
-<div class="custom-container quick-start-section" style="margin: 120px 0; padding-top: 40px;">
-  <h2 style="text-align: center; font-size: 2.2rem; font-weight: 800; margin-bottom: 60px;">クイックスタート</h2>
+<div class="custom-container quick-start-section" style="margin: 40px 0 0; padding-top: 0px;">
+  <h2>クイックスタート</h2>
   
   <div class="quick-start-grid">
     <div class="quick-start-item">
@@ -122,7 +122,7 @@ features:
 :::
 
 <div style="text-align: center; margin: 80px 0;">
-  <h3>今すぐリハーサルをアップデートしよう</h3>
+  <h3>リハーサルをアップデート</h3>
   <a href="#" class="download-badge">
     <span style="font-size: 0.8rem; display: block; line-height: 1;">Download on the</span>
     <span style="font-size: 1.4rem;">App Store</span>
