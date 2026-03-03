@@ -25,6 +25,105 @@
   color: #475569;
 }
 
+/* Hero Image Overaly (iPhone + Screen) */
+.VPHero .image {
+  display: flex;
+  justify-content: center;
+}
+
+.VPHero .image-container, .phone-frame {
+  display: grid !important;
+  place-items: center;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+.VPHero .image-src, .phone-frame img {
+  grid-area: 1 / 1;
+  z-index: 2;
+  max-height: 500px !important;
+  width: auto !important;
+  position: relative;
+  margin: 0 !important;
+  pointer-events: none;
+}
+
+.VPHero .image-container::before, .phone-frame::before {
+  content: "";
+  grid-area: 1 / 1;
+  width: 88.5%; 
+  height: 95.5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 40px;
+  z-index: 1;
+  display: block;
+}
+
+/* Screen Image Assignments */
+.VPHero .image-container::before, .hero-image::before {
+  background-image: url('/rehearsallink/MainScreen.jpg');
+}
+
+.secondary-image::before {
+  background-image: url('/rehearsallink/SummarizeScreen.jpg');
+}
+
+@media (max-width: 960px) {
+  .section-split {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin: 60px auto;
+  }
+  .section-content-side {
+    order: 1;
+  }
+  .section-image-side {
+    order: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .VPHero .image-src, .phone-frame img {
+    max-height: 380px !important;
+  }
+  .VPHero .image-container::before, .phone-frame::before {
+    border-radius: 30px;
+  }
+}
+
+/* --- Section Split Layout --- */
+.section-split {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: 100px auto;
+  padding: 80px 24px 0; /* Add top padding for the border */
+  max-width: 1100px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.section-split h2 {
+  border-top: none; /* Remove default VitePress h2 border */
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.section-image-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.section-content-side {
+  flex: 1.2;
+}
+
+/* Feature Card Styling */
+
 /* Feature Card Styling */
 .VPFeatures .item {
   border-radius: 24px !important;
