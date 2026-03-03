@@ -71,6 +71,69 @@
   background-image: url('/SummarizeScreen.jpg');
 }
 
+/* --- Quick Start Section --- */
+.quick-start-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.quick-start-item {
+  text-align: center;
+}
+
+.quick-start-item .phone-frame img {
+  max-height: 380px !important;
+}
+
+.quick-start-item p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 16px;
+  line-height: 1.4;
+  color: var(--vp-c-text-1);
+}
+
+.quick-start-item small {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--vp-c-text-2);
+}
+
+.step-badge {
+  display: inline-block;
+  background: var(--vp-c-brand);
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+/* Quick Start Step Images */
+.step-01::before { background-image: url('/quickstart/01_openFile.jpg'); }
+.step-02::before { background-image: url('/quickstart/02_selectFile.jpg'); }
+.step-03::before { background-image: url('/quickstart/03_batchTranscript.jpg'); }
+.step-04::before { background-image: url('/quickstart/04_summarize.jpg'); }
+
+@media (max-width: 960px) {
+  .quick-start-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-start-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 960px) {
   .section-split {
     flex-direction: column;

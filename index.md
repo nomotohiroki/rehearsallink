@@ -86,6 +86,41 @@ features:
 やっていることは文字起こしと要約。TRPGや人狼にも使えるかも？ 活用アイディア募集中
 :::
 
+<div class="custom-container" style="margin: 120px 0; border-top: 1px solid var(--vp-c-divider); padding-top: 80px;">
+  <h2 style="text-align: center; font-size: 2.2rem; font-weight: 800; margin-bottom: 60px;">クイックスタート</h2>
+  
+  <div class="quick-start-grid">
+    <div class="quick-start-item">
+      <div class="phone-frame step-01">
+        <img src="/iPhone 17 Pro.png" alt="Step 1">
+      </div>
+      <div class="step-badge">1</div>
+      <p>ファイルを選択から</p>
+    </div>
+    <div class="quick-start-item">
+      <div class="phone-frame step-02">
+        <img src="/iPhone 17 Pro.png" alt="Step 2">
+      </div>
+      <div class="step-badge">2</div>
+      <p>録音ファイルを選んで</p>
+    </div>
+    <div class="quick-start-item">
+      <div class="phone-frame step-03">
+        <img src="/iPhone 17 Pro.png" alt="Step 3">
+      </div>
+      <div class="step-badge">3</div>
+      <p>一括文字起こし</p>
+    </div>
+    <div class="quick-start-item">
+      <div class="phone-frame step-04">
+        <img src="/iPhone 17 Pro.png" alt="Step 4">
+      </div>
+      <div class="step-badge">4</div>
+      <p>要約<br><small>(API設定を行っていない場合はコピーボタンから、ChatGPT等に貼り付け)</small></p>
+    </div>
+  </div>
+</div>
+
 <div style="text-align: center; margin: 80px 0;">
   <h3>今すぐリハーサルをアップデートしよう</h3>
   <a href="#" class="download-badge">
