@@ -27,7 +27,7 @@ features:
 <div class="custom-container section-split">
   <div class="section-image-side">
     <div class="phone-frame secondary-image">
-      <img src="/rehearsallink/iPhone 17 Pro.png" alt="Summary Screen">
+      <img src="/iPhone 17 Pro.png" alt="Summary Screen">
     </div>
   </div>
   <div class="section-content-side">

@@ -64,11 +64,11 @@
 
 /* Screen Image Assignments */
 .VPHero .image-container::before, .hero-image::before {
-  background-image: url('/rehearsallink/MainScreen.jpg');
+  background-image: url('/MainScreen.jpg');
 }
 
 .secondary-image::before {
-  background-image: url('/rehearsallink/SummarizeScreen.jpg');
+  background-image: url('/SummarizeScreen.jpg');
 }
 
 @media (max-width: 960px) {
