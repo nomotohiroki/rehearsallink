@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "RehearsalLink",
   description: "リハーサル録音の『あの指示、どこだっけ？』をゼロに。",
-  base: "/rehearsal-link/",
+  base: "/rehearsallink/",
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
