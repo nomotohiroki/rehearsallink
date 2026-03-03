@@ -5,6 +5,9 @@ hero:
   name: "RehearsalLink"
   text: "「あの指示、どこだっけ？」をゼロに。"
   tagline: "音楽合奏の録音をAIが自動解析。演奏と会話を瞬時に仕分けし、リハーサルの振り返りとAI要約をかつてないほどスムーズにする iOSアプリ。"
+  image:
+    src: /hero-icon.png
+    alt: RehearsalLink App Icon
   actions:
     - theme: brand
       text: 使い方を見る
