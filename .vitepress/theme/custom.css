@@ -72,6 +72,15 @@
 }
 
 /* --- Quick Start Section --- */
+.quick-start-section {
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 80px;
+}
+
+.quick-start-section h2 {
+  border-top: none; /* Remove default VitePress h2 border */
+}
+
 .quick-start-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

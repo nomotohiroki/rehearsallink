@@ -64,7 +64,7 @@ features:
 
 **RehearsalLinkが、その悩みをすべて解決します。**
 
-<div class="custom-container" style="margin: 120px 0; border-top: 1px solid var(--vp-c-divider); padding-top: 80px;">
+<div class="custom-container quick-start-section" style="margin: 120px 0; padding-top: 40px;">
   <h2 style="text-align: center; font-size: 2.2rem; font-weight: 800; margin-bottom: 60px;">クイックスタート</h2>
   
   <div class="quick-start-grid">
