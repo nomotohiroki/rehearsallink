@@ -64,28 +64,6 @@ features:
 
 **RehearsalLinkが、その悩みをすべて解決します。**
 
-## 👥 活用事例
-
-::: tip 🗣 指導者・指揮者
-ご自身の指導の振り返りや、次回の練習計画の作成に最適です。AIによる文字起こしと自動要約で、どのような指示を出したかを後から簡単に確認できます。
-:::
-
-::: tip 🎺 パートリーダー
-指摘された箇所の「会話＋直後の演奏」だけを抽出し、パート内に共有。効率的な復習をサポートします。
-:::
-
-::: tip 📱 録音係
-アプリに録音を入れるだけで自動的に「目次」が完成。練習後の録音共有や議事録作成作業が数分で完了します。
-:::
-
-::: tip 🎷 個人練習
-練習しながら注意事項をつぶやくことで自分用の振り返りが完成。
-:::
-
-::: tip 🐺 会話系ゲーム
-やっていることは文字起こしと要約。TRPGや人狼にも使えるかも？ 活用アイディア募集中
-:::
-
 <div class="custom-container" style="margin: 120px 0; border-top: 1px solid var(--vp-c-divider); padding-top: 80px;">
   <h2 style="text-align: center; font-size: 2.2rem; font-weight: 800; margin-bottom: 60px;">クイックスタート</h2>
   
@@ -120,6 +98,8 @@ features:
     </div>
   </div>
 </div>
+
+## 👥 活用事例
 
 <div style="text-align: center; margin: 80px 0;">
   <h3>今すぐリハーサルをアップデートしよう</h3>
