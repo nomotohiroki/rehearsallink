@@ -16,7 +16,7 @@ export default defineConfig({
       {
         text: 'ガイド',
         items: [
-          { text: 'はじめに', link: '/guide/' },
+          { text: '詳細ガイド', link: '/guide/' },
           { text: '活用Tips', link: '/guide/tips' }
         ]
       }
