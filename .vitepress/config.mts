@@ -10,7 +10,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '使い方', link: '/guide/' },
-      { text: 'Tips', link: '/guide/tips' }
+      { text: 'Tips', link: '/guide/tips' },
+      { text: 'プライバシー', link: '/privacy' }
     ],
     sidebar: [
       {
