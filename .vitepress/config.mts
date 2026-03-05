@@ -20,6 +20,10 @@ export default defineConfig({
           { text: '活用Tips', link: '/guide/tips' }
         ]
       }
-    ]
+    ],
+    footer: {
+      message: 'All rights reserved. | <a href="https://buymeacoffee.com/hirokinomoto" target="_blank" rel="noopener">コーヒーをおごる ☕️</a>',
+      copyright: 'Copyright © 2026 Hiroki Nomoto'
+    }
   }
 })
